@@ -1,4 +1,3 @@
-
 function seleccionarTexto() {
     let desde = msg.selectionStart;
     let hasta = msg.selectionEnd;
