@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de Texto</title>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+  <h1 class="titulo">Challenge Alura Latam + Oracle</h1>
+  <h1 class="subtitulo">Cifrador de texto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="" id="formulario">
+		<h3 class="texto" id="mensaje-encriptado">Mensaje original</h3>
+        <input class="text-input" type="text" name="inputtexto" id="inputtexto" placeholder="Ingrese el texto aqui">
+        <input class="btn-enc" type="submit" value="Encriptar !" id="btn-encriptar">
+        <input class="btn-denc" type="submit" value="Desencriptar !" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h3 class="texto" id="mensaje-desencriptado">Mensaje encriptado:</h3>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn-copiar" type="submit" value="Copiar texto !" id="btn-copy">
+    </section>
+  </main>
+  <footer class="footer">
+	<p>Copyright © Lucas A. Risso Patrón - 2022</p>
+  </footer>
+  <script src="js/Encriptar.js"></script>
+  <script src="js/DesEncriptar.js"></script>
+  <script src="js/copiar.js"></script>
+  <script src="js/Validar.js"></script>
+</body>
+</html>
